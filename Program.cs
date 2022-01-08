@@ -6,18 +6,18 @@ namespace poly
     {
         static void Main()
         {
-            
+            Hcl obj = new Hcl();
+            obj.walk(101);
+            obj.walk("101");
         }
 
-        public static void walk(int a){
+        public void walk(int a){
             System.Console.WriteLine("Working");
         }
         
-        public static void walk(string a){
+        public void walk(string a){
             System.Console.WriteLine("Working");
         }
-
-        
 
     }
 }

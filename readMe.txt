@@ -10,3 +10,7 @@ this process is said to be function overloading.  //The return types doesn't mat
 **If same object calls 2 or more methods, this is static polymorphism.
 **If one object calls 1 method only, it is erly binding.
 **If one object calls 1 method multiple times, it is early polymorphism only!
+
+
+
+***Calling multiple methods of different names with same object is said to be early binding(Not static polymorphism).
